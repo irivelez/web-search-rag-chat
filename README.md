@@ -67,4 +67,4 @@ Someone in my LinkedIn audience asked: "Un RAG con alguna db de vectores, con pa
 6. **Source Attribution**: Users see exactly which sources contributed to the response
 
 ---
-⚡️ Built in 3 hours • Part of thexperiment.dev
+⚡️ Built in 3 hours • Part of https://thexperiment.dev/
