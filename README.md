@@ -54,6 +54,9 @@ Open http://localhost:8501 and start chatting!
 - `requirements.txt` - Python dependencies
 - `.env` - API key configuration
 
+## 💡 Why This Exists
+Someone in my LinkedIn audience asked: "Un RAG con alguna db de vectores, con patrón sencillo" This is the answwer - a hybrid RAG system that never gets outdated.
+
 ## 🔍 How It Works
 
 1. **PDF Processing**: Documents are extracted, cleaned, and chunked for optimal retrieval
