@@ -1,26 +1,11 @@
-# Enhanced RAG PDF Chat Application
+# Web Search + RAG Chat
 
-A powerful RAG (Retrieval Augmented Generation) application that combines PDF document analysis with real-time web search to provide comprehensive, up-to-date answers.
+Chat with your PDFs and get answers enhanced with real-time web search
 
-## 🚀 Key Features
+## 🎯 What It Does
 
-### Core RAG Functionality
-- **PDF Upload & Processing**: Drag and drop multiple PDF files with real-time progress tracking
-- **Intelligent Text Processing**: Advanced chunking (1000 words, 200-word overlap) and cleaning
-- **Vector Storage**: Local ChromaDB with OpenAI embeddings for semantic similarity search
-- **Smart Chat Interface**: Streamlit-based UI with persistent conversation history
-
-### 🌐 Enhanced Web Search Integration
-- **Hybrid Search**: Combines local PDF knowledge with current web information
-- **Real-time Web Search**: Serper.dev API integration for up-to-date information
-- **Source Attribution**: Clear indicators showing PDF, Web, or combined sources
-- **Debug Logging**: Console output showing actual search results and API calls
-
-### 📊 Advanced Features
-- **Document Management**: View loaded documents, clear storage, batch processing
-- **Error Handling**: Graceful fallbacks when web search fails
-- **Real Source Verification**: Display actual URLs and snippets from web searches
-- **Flexible Search Modes**: Toggle between PDF-only and enhanced web search
+Upload PDF documents and ask questions. The system searches your documents AND the web simultaneously, giving you answers that combine historical knowledge with up-to-date information. 
+Perfect for research, due diligence, or staying current on any topic.
 
 ## 🛠️ Tech Stack
 
@@ -34,42 +19,30 @@ A powerful RAG (Retrieval Augmented Generation) application that combines PDF do
 
 **Frontend:**
 - **Streamlit** - Interactive web interface
-- **Real-time UI** - Progress indicators, status updates, source attribution
 
-## ⚙️ Setup
+## 🚀 Quick Start
 
-1. **Install dependencies:**
 ```bash
+
+# 1. Clobe & Install dependencies:
+git clone https://github.com/irivelez/web-search-rag-chat.git
+cd web-search-rag-chat
 pip install -r requirements.txt
-```
 
-2. **Configure API keys in `.env`:**
-```bash
+
+# 2. Configure API keys in `.env`:
+
 OPENAI_API_KEY=your_openai_api_key_here
 SERPER_API_KEY=your_serper_api_key_here
-```
 
-3. **Run the application:**
-```bash
+
+# 3. Run the application:
+
 streamlit run app.py
 ```
 
-## 🔧 Usage
+Open http://localhost:8501 and start chatting!
 
-### Basic PDF Chat
-1. Upload PDF reports using the sidebar
-2. Click "Process PDFs" to index the documents
-3. Ask questions about your documents in the chat interface
-
-### Enhanced Web Search
-1. Enable "🌐 Enhanced with Web Search" checkbox in the sidebar
-2. Ask questions to get answers combining PDF content with current web information
-3. Monitor console output to see actual web search results and sources
-
-### Debug & Verification
-- **Console Logging**: Watch terminal for detailed search operation logs
-- **Source Attribution**: See which sources (PDF/Web) contributed to each answer
-- **Real URLs**: View actual web sources found by the search API
 
 ## 📁 File Structure
 
@@ -90,10 +63,5 @@ streamlit run app.py
 5. **AI Response**: OpenAI generates comprehensive answers using combined context
 6. **Source Attribution**: Users see exactly which sources contributed to the response
 
-## 💡 Benefits
-
-- **Comprehensive Answers**: Combines historical PDF knowledge with current information
-- **Source Transparency**: Always know where information comes from
-- **Flexible Usage**: Works with PDF-only or enhanced web search modes
-- **Cost Effective**: Uses efficient APIs (Serper.dev at $0.30/1000 queries)
-- **Local Storage**: Your documents stay private in local vector database
+---
+⚡️ Built in 3 hours • Part of thexperiment.dev
