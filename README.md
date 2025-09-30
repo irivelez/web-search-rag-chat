@@ -2,6 +2,10 @@
 
 Chat with your PDFs and get answers enhanced with real-time web search
 
+Built for: Audience request to combine document knowledge with current web information
+Build time: ⏱️ 3 hours
+Part of: https://thexperiment.dev/
+
 ## 🎯 What It Does
 
 Upload PDF documents and ask questions. The system searches your documents AND the web simultaneously, giving you answers that combine historical knowledge with up-to-date information. 
