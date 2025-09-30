@@ -3,7 +3,7 @@
 > Chat with your PDFs and get answers enhanced with real-time web search
 
 **Built for:** Audience request to combine document knowledge with current web information                            
-**Build time:** ⏱️ 4 hours  
+**Build time:** ⏱️ 3 hours  
 **Part of:** [thexperiment.dev](https://thexperiment.dev)
 
 ## 🎯 What It Does
